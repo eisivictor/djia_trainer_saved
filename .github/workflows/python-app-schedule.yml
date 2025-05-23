@@ -40,8 +40,5 @@ jobs:
       run: |
         git config --global user.name 'Victor Eiskovits'
         git config --global user.email 'eisivictor@github.com'
-        git add -A djia_models/
-        git add -A trainer_logs/
-        git add -A tester_logs/
         git commit -am "Automated report"
         git push
